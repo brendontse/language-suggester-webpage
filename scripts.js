@@ -8,6 +8,7 @@ $(document).ready(function() {
     var social = $('.responses#social').val();
     var money = $('.responses#money').val();
     var score = parseInt(pet) + parseInt(lifestyle) + parseInt(schedule) + parseInt(social) + parseInt(money);
+
     console.log(pet);
     console.log(lifestyle);
     console.log(schedule);
@@ -15,5 +16,5 @@ $(document).ready(function() {
     console.log(money);
     console.log(score);
 
-  })
-})
+  });
+});
