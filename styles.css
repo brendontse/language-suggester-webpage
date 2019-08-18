@@ -11,9 +11,19 @@ form {
 }
 
 button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .container {
   font-size: 16px;
+  border: 2px solid black;
+}
+
+.well {
+  background-color: #7ecff7;
+  border: 1px solid black;
 }
