@@ -13,6 +13,8 @@ h3 {
 .jumbotron {
   text-align: center;
   background-color: #e9d8f0;
+  border-style: double;
+  border-color: black;
 }
 
 form {
