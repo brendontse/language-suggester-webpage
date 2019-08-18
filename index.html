@@ -7,9 +7,12 @@
     <link rel='stylesheet' href='styles.css'>
     <title>Find your ideal language here!</title>
     <meta charset="utf-8">
-    <title></title>
   </head>
   <body>
+    <div class="jumbotron">
+      <h3>What coding language would suit your needs best?</h3>
+      <p>Take this incredibly inaccurate quiz to find out!</p>
+    </div>
     <div class='container bg-success'>
       <form class="questions" action="index.html" method="post">
         <div class="questions">
@@ -38,7 +41,7 @@
         </div>
         <div class="questions">
           <label for="social">Which of the following describes your social life?</label>
-          <select class="responses" name="social" required>
+          <select class="responses" id="social" required>
             <option value="0">I frequently have friends visiting my home</option>
             <option value='1'>I usually visit friends at their home</option>
             <option value='2'>I usually meet my friends at the destination</option>
@@ -46,7 +49,7 @@
         </div>
         <div class="questions">
           <label for="money">Which of the following best describes your financial status?</label>
-          <select class="responses" id="social " required>
+          <select class="responses" id="money" required>
             <option value="0">I am doing well financially</option>
             <option value="1">I am doing fine financially</option>
             <option value="2">I am struggling financially</option>
@@ -56,16 +59,19 @@
         <button type="submit" name="button">Submit!</button>
       </form>
 
-      <div class="well results bg-info" id='language1'>
-        <p>test</p>
+      <div class="well results" id='python'>
+        <h3>Your result is : Python!</h3>
+        <p>Based on our survey, your results show that you are rather busy and pressed for time.<br> This website recommends you give Python a try due to its easy-to-learn syntax that is easier to pick up. </p>
       </div>
-      <div class="well results bg-info" id=language2>
-        <p>test</p>
+      <div class="well results" id=javascript>
+        <h3>Your result is : JavaScript!</h3>
+        <p>Based on our survey, your results show that you have a moderately busy schedule and can afford to spend more time on a more challenging language.<br> This website recommends you give JavaScript a try due to its popularity and endless
+        customization!</p>
       </div>
-      <div class="well results bg-info" id=language3>
-        <p>test</p>
+      <div class="well results" id=ruby>
+        <h3>Your result is : Ruby!</h3>
+        <p>Based on our survey, your results show that you have an unorthodox lifestyle and your schedule may be inconsistent.<br> Our (definitely not real) studies have shown that individuals who have changing schedules do best learning Ruby!</p>
       </div>
-
     </div>
   </body>
 </html>

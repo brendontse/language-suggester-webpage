@@ -1,5 +1,18 @@
-#language1, #language2, #language3 {
+#python, #javascript, #ruby {
     display: none;
+}
+
+body {
+  background-color: #d8f0e9;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #e9d8f0;
 }
 
 form {
@@ -24,6 +37,9 @@ button {
 }
 
 .well {
-  background-color: #7ecff7;
+  background-color: #f0d8de;
   border: 1px solid black;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
 }

@@ -16,5 +16,14 @@ $(document).ready(function() {
     console.log(money);
     console.log(score);
 
+    $('.results').hide();
+
+    if (score <= 3) {
+      $('.results#python').show();
+    } else if (score > 3 && score <= 7) {
+      $('.results#javascript').show();
+    } else if (score > 7) {
+      $('.results#ruby').show();
+    }
   });
 });
