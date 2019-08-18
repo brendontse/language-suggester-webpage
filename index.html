@@ -10,32 +10,49 @@
     <title></title>
   </head>
   <body>
-    <div class='container'>
+    <div class='container bg-success'>
       <form class="questions" action="index.html" method="post">
-        <label for='pet'>Which of these animals would be your ideal pet?</label>
-        <select class='responses' id='pet' required>
-          <option value='0'>A puppy</option>
-          <option value='1'>A kitten</option>
-          <option value='2'>A fish</option>
-        </select>
-        <label for='lifestyle'>Which one of these activities would you rather do this weekend?</label>
-        <select class='responses' id='lifestyle' required>
-          <option value='0'>Enjoying the sun at a park</option>
-          <option value='1'>Watching TV in an air-conditioned room</option>
-          <option value='2'>Taking an overnight road trip to someplace new</option>
-        </select>
-        <label for="schedule">How would you describe your day-to-day schedule?</label>
-        <select class='responses' id='schedule' required>
-          <option value="0">I work from nine to five</option>
-          <option value="1">I work afternoon and evenings</option>
-          <option value="2">I work nights or my schedule is inconsistent</option>
-        </select>
-        <label for="social">Which of the following describes your social life?</label>
-        <select class="responses" name="social" required>
-          <option value="0">I frequently have friends visiting my home</option>
-          <option value='1'>I usually visit friends at their home</option>
-          <option value='2'>I usually meet my friends at the destination</option>
-        </select>
+        <div class="questions">
+          <label for='pet'>Which of these animals would be your ideal pet?</label>
+          <select class='responses' id='pet' required>
+            <option value='0'>A puppy</option>
+            <option value='1'>A kitten</option>
+            <option value='2'>A fish</option>
+          </select>
+        </div>
+        <div class="questions">
+          <label for='lifestyle'>Which one of these activities would you rather do this weekend?</label>
+          <select class='responses' id='lifestyle' required>
+            <option value='0'>Enjoying the sun at a park</option>
+            <option value='1'>Watching TV in an air-conditioned room</option>
+            <option value='2'>Taking an overnight road trip to someplace new</option>
+          </select>
+        </div>
+        <div class="questions">
+         <label for="schedule">How would you describe your day-to-day schedule?</label>
+          <select class='responses' id='schedule' required>
+            <option value="0">I work from nine to five</option>
+            <option value="1">I work afternoon and evenings</option>
+            <option value="2">I work nights or my schedule is inconsistent</option>
+          </select>
+        </div>
+        <div class="questions">
+          <label for="social">Which of the following describes your social life?</label>
+          <select class="responses" name="social" required>
+            <option value="0">I frequently have friends visiting my home</option>
+            <option value='1'>I usually visit friends at their home</option>
+            <option value='2'>I usually meet my friends at the destination</option>
+          </select>
+        </div>
+        <div class="questions">
+          <label for="money">Which of the following best describes your financial status?</label>
+          <select class="responses" id="social " required>
+            <option value="0">I am doing well financially</option>
+            <option value="1">I am doing fine financially</option>
+            <option value="2">I am struggling financially</option>
+          </select>
+        </div>
+
         <button type="submit" name="button">Enter!</button>
       </form>
 
